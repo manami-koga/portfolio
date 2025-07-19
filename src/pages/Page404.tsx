@@ -1,12 +1,12 @@
 import { Footer } from "../components/Footer"
 import { Header } from "../components/Header"
 
-//成果物一覧
-export const Works=()=>{
+//404ページ
+export const Page404=()=>{
     return(
         <div>
             <Header/>
-            <h1>成果物一覧画面です</h1>
+            <h1>ページが見つかりませんでした</h1>
             <Footer/>
         </div>
     )
