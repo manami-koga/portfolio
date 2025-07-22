@@ -1,5 +1,5 @@
-import { Footer } from "../components/Footer"
-import { Header } from "../components/Header"
+import { Footer } from "../components/frame/Footer"
+import { Header } from "../components/frame/Header"
 
 //404ページ
 export const Page404=()=>{

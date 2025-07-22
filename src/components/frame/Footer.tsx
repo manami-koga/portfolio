@@ -7,7 +7,7 @@ import styles from './Styled.module.css';
 export const Footer = () => {
     return (
         <>
-            <AppBar component={"footer"} position="static" className={styles.frame}>
+            <AppBar component={"footer"} position="static">
                 <Container maxWidth="md">{/**表示を横画面に対して900以上のサイズで表示 */}          
                         <Typography variant="caption">
                             <p>© 2025 My Portfolio</p>

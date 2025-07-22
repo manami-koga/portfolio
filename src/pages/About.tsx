@@ -1,5 +1,5 @@
-import { Footer } from "../components/Footer"
-import { Header } from "../components/Header"
+import { Footer } from "../components/frame/Footer"
+import { Header } from "../components/frame/Header"
 
 //プロフィール画面
 export const About=()=>{

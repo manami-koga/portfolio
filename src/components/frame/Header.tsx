@@ -7,7 +7,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom"
 
 //URL一覧
-const setHeader: Array<{ text: string, path: string, exact: boolean }> = [
+const setHeader: Array<{ text: string, path: string,exact:boolean}> = [
     {
         text: "ホーム",
         path: "/",
@@ -16,17 +16,17 @@ const setHeader: Array<{ text: string, path: string, exact: boolean }> = [
     {
         text: "プロフィール",
         path: "/about",
-        exact: false
+        exact:false
     },
     {
         text: "成果物一覧",
         path: "/works",
-        exact: false
+        exact:false
     },
      {
         text: "資格一覧",
         path: "/qualifications",
-        exact: false
+        exact:false
     }
     
 ]
@@ -44,7 +44,7 @@ export const Header = () => {
 
     return (
         <>
-            <AppBar component={"header"} position="static" className={styles.frame}>{/**ヘッダーの土台 */}
+            <AppBar component={"header"} position="static">{/**ヘッダーの土台 */}
 
                 <Container maxWidth="md">{/**表示を横画面に対して900以上のサイズで表示 */}
 
